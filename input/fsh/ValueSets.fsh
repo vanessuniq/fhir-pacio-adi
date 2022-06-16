@@ -8,6 +8,7 @@ This ValueSet is managed at the US National Library of Medicine (NLM) Value Set 
 * include $LOINC#81334-5 "Patient Personal advance care plan"
 * include $LOINC#86533-7 "Patient Living will"
 * include $LOINC#92664-2 "Power of attorney and Living will"
+* include $LOINC#93037-0 "Portable medical order form"
 * insert LOINCCopyrightNotice
 
 

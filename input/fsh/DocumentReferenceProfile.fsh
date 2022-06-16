@@ -18,7 +18,7 @@ Description: "This profile defines constraints that represent the information ne
 * include $LOINC#92664-2 "Power of attorney and Living will"
 */
 //* type from PADIAdvanceDirectiveCategoriesVS (extensible)
-//* type short name "Advance Directives Categories"
+
 * category 1..* MS
 * category from $USCoreDocumentReferenceCategory (extensible)
 * subject 1..1 MS
@@ -43,6 +43,6 @@ Description: "This profile defines constraints that represent the information ne
 
 // These are from the mapping document and are likely not the intended final short descriptions
 RuleSet: PADIDocumentReferenceShortDescriptions
-* type ^short = "Advance Directive Categories"
+* type ^short = "Advance Directives Categories should be taken from PADIAdvanceDirectiveCategoriesVS"
 * subject ^short = "Patient"
 * author ^short = "legalAuthenticator"
