@@ -41,10 +41,12 @@ jurisdiction: urn:iso:std:iso:3166#US
 menu:
   Home: index.html
   Table of Contents: toc.html
-  Guidance:
+  General: 
+    ADI Content Overview: content_type_overview.html
+    General Guidance: general_guidance.html
+  Content Type:
     Patient Stories and Personas: patient_stories_and_personas.html
     Use Cases: use_cases.html
-    General Guidance: general_guidance.html
     Formal Specification: formal_specification.html
     Security, Privacy, and Consent: security_privacy_consent.html
   FHIR Artifacts:
@@ -55,7 +57,9 @@ menu:
     Examples: artifacts.html#6
 #    Search Parameters: 6_searchparameters.html
   #Examples: artifacts.html#7
-  Downloads: downloads.html
+  More:
+    Glossary: glossary.html
+    Downloads: downloads.html
 
 pages:
   index.md:
@@ -66,10 +70,14 @@ pages:
     title: Use Cases
   general_guidance.md:
     title: General Guidance
+  content_type_overview.md:
+    title: ADI Content Overview
   formal_specification.md:
     title: Formal Specification
   security_privacy_consent.md:
     title: Security, Privacy, and Consent
+  glossary.md:
+    title: Glossary
   artifacts.html:
     title: FHIR Artifacts
   downloads.md:
