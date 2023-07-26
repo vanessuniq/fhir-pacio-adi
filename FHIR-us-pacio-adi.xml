@@ -132,6 +132,8 @@
 <page key="glossary" name="Glossary"/>
 <page key="index" name="Home"/>
 <page key="patient_stories_and_personas" name="Patient Stories and Personas"/>
+<page key="adi_type2" name="Person-Authored Advance Directive Information"/>
+<page key="adi_type3" name="Portable Medical Orders"/>
 <page key="security_privacy_consent" name="Security, Privacy, and Consent"/>
 <page key="toc" name="Table of Contents"/>
 <page key="use_cases" name="Use Cases"/>

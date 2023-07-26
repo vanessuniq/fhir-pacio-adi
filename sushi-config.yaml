@@ -44,11 +44,15 @@ menu:
   General: 
     ADI Content Overview: content_type_overview.html
     General Guidance: general_guidance.html
-  Content Type:
+    Conformance: formal_specification.html
+  Person-Authored:
     Patient Stories and Personas: patient_stories_and_personas.html
     Use Cases: use_cases.html
-    Formal Specification: formal_specification.html
     Security, Privacy, and Consent: security_privacy_consent.html
+  Encounter-centric:
+    Use Cases: adi_type2.html
+  Portable Medical Orders:
+    Use Cases: adi_type3.html
   FHIR Artifacts:
     Profiles: artifacts.html#2
     Extensions: artifacts.html#4
@@ -66,6 +70,10 @@ pages:
     title: Home
   patient_stories_and_personas.md:
     title: Patient Stories and Personas
+  adi_type2.md:
+    title: Person-Authored Advance Directive Information
+  adi_type3.md:
+    title: Portable Medical Orders
   use_cases.md:
     title: Use Cases
   general_guidance.md:
