@@ -2,7 +2,7 @@ This ADI implementation guide (IG) describes how to use existing HL7 FHIR® stan
 
 <blockquote class="stu-note">
     <p>
-    STU1 supports only Person-authored Advance Directives (ADI Content Type 1) documents. Reference the <a href="./content_type_overview.html">ADI Content Overview</a> page in this IG for further information about the different ADI content types.
+    STU1 supports only <a href="./patient_stories_and_personas.html"> Person-authored Advance Directives (ADI Content Type 1)</a> documents. Reference the <a href="./content_type_overview.html">ADI Content Overview</a> page in this IG for further information about the different ADI content types.
     </p>
 </blockquote>
 

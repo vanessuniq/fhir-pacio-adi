@@ -45,10 +45,10 @@ menu:
     ADI Content Overview: content_type_overview.html
     General Guidance: general_guidance.html
     Conformance: formal_specification.html
+    Security, Privacy, and Consent: security_privacy_consent.html
   Person-Authored:
     Patient Stories and Personas: patient_stories_and_personas.html
     Use Cases: use_cases.html
-    Security, Privacy, and Consent: security_privacy_consent.html
   Encounter-centric:
     Use Cases: adi_type2.html
   Portable Medical Orders:
