@@ -1,6 +1,10 @@
 ### ADI Content Type II: Encounter-centric Instructions
 
-**Stub slide for ADI type II content**
+<blockquote class="stu-note">
+    <p>
+    ADI Content Type II is out of scope. It is described here in the context of overall advanced directive interoperability. Reference the <a href="./content_type_overview.html">ADI Content Overview</a> page in this IG for further information about the different ADI content types.
+    </p>
+</blockquote>
 
 Encounter-centric instructions document decisions that have been made specific to a current episode of care. They are practitioner-authored and informed by a patient or a healthcare agent.
 

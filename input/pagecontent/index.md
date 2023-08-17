@@ -1,8 +1,8 @@
-This ADI implementation guide (IG) describes how to use existing HL7 FHIR® standards to create, update, share, verify, and exchange information about an individual's advance medical goals, preferences, and priorities for care in the event the individual is unable to communicate this information to medical teams for himself or herself. Advance directives in this IG includes person-authored advance directives and personal advance care plans, and patient consent information attesting to a patient authorizing a person or persons to serve as a healthcare agent or attesting to permission granted to share advance directive information with others. It also includes practitioner-authored patient instructions (obligation and prohibitions), practitioner-authored portable medical orders for life sustaining treatments.
+The Advance Directive Interoperability (ADI) implementation guide (IG) describes how to use existing HL7 FHIR® standards to create, update, share, verify, and exchange information about an individual's advance medical goals, preferences, and priorities for care in the event the individual is unable to communicate this information to medical teams for himself or herself. Advance directives in this IG includes person-authored advance directives and personal advance care plans, and patient consent information attesting to a patient authorizing a person or persons to serve as a healthcare agent or attesting to permission granted to share advance directive information with others. It also includes practitioner-authored patient instructions (obligation and prohibitions), practitioner-authored portable medical orders for life sustaining treatments.
 
 <blockquote class="stu-note">
     <p>
-    STU1 supports only <a href="./patient_stories_and_personas.html"> Person-authored Advance Directives (ADI Content Type 1)</a> documents. Reference the <a href="./content_type_overview.html">ADI Content Overview</a> page in this IG for further information about the different ADI content types.
+    STU1 supports only <a href="./adi_type1.html"> Person-authored Advance Directives (ADI Content Type 1)</a> documents. Reference the <a href="./content_type_overview.html">ADI Content Overview</a> page in this IG for further information about the different ADI content types.
     </p>
 </blockquote>
 
@@ -16,11 +16,9 @@ FHIR profiles have been developed for several existing FHIR resources to represe
 
 <p>&nbsp;</p>
 
-![PACIO logo](./pacio.png)
-
 #### About PACIO
 <p>
-The PACIO Project is a collaborative effort to advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders across health care and to promote health data exchange in collaboration with policy makers, standards organizations, and industry through a consensus-based approach.
+The [PACIO Project](https://pacioproject.org/) is a collaborative effort to advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders across health care and to promote health data exchange in collaboration with policy makers, standards organizations, and industry through a consensus-based approach.
 </p>
 <p>
 The primary goal of the PACIO Project is to establish a framework for the development of Fast Healthcare Interoperability Resources (FHIR) technical implementation guides and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs).
@@ -66,17 +64,24 @@ Future versions of this FHIR IG will address encounter-centric patient instructi
 ### How to read this Guide
 This Guide is divided into several pages which are listed at the top of each page in the menu bar.
 
-* **Home**: The home page provides the introduction and background information to set context for the use of the HL7 FHIR® ADI Implementation Guide (IG).
+* **Home**: The home page provides the introduction and background information to set context for the use of the HL7 FHIR® ADI IG.
 * **Table of Contents**: A summary of the sections in the IG. 
-* **General**: These pages provide overall guidance in using the profiles and transactions defined in this guide by detailing the patient stories and personas and use cases.
-* **Content Type**: A detailed overview of the different ADI Content Types. Each content type will contain:
-  * Patient stories and personas: Patient stories and personas give context to the data exchange standards detailed in the technical areas of the IG. They allow the non-technical reader to envision situations in which the IGs provisions would apply, and ensure that the IG meets the intended needs for exchange of this type of information.
-  * Use cases: A use case is a list of technical actions or event steps typically defining the interactions between a role and a system to achieve a goal. The actor can be a human or other external system. Technical scenarios that describe systems interactions between technical actors to implement the use case.
-  * Conceptual model illustrating the structure and relationships among FHIR profiles.
-  * Formal Specification: Information about conformance to the guide including Must Support requirements, document signatures, and document workflow.
-  * Security considerations: General security requirements and recommendations for HL7 FHIR® ADI Implementation Guide actors, including authentication, authorization, and logging requirements and guidance.
+* **General**: 
+  * These pages provide an overview of the types of advanced directives and overall guidance in using the ADI representative profiles and transactions, and security and privacy considerations.
+* Menu items are split into categorizations by each ADI content type:
+  * <a href="./adi_type1.html">Person-Authored</a>: Person-authored advanced directives for sharing an individual's medical treatment and intervention goals. Content includes patient stories and personas, common use cases, and conceptual models.
+  * <a href="./adi_type2.html">Encounter-centric</a>: Practitioner-authored advanced directives which are related to a current or immediate episode of care.
+  * <a href="./adi_type2.html">Portable Medical Orders (PMO)</a>: PMOs are practitioner-authored advance directives which comprise a set of medical orders intended to follow a patient and be available across a continuum of care.
+* Each content type menu further contains:
+  * *Stories and personas*: Patient stories and personas give context to the data exchange standards detailed in the technical areas of the IG. They allow the non-technical reader to envision situations in which the IGs provisions would apply, and ensure that the IG meets the intended needs for exchange of this type of information.
+  * *Use cases*: A use case is a list of technical actions or event steps typically defining the interactions between a role and a system to achieve a goal. The actor can be a human or other external system. Technical scenarios that describe systems interactions between technical actors to implement the use case.
+  * *Conceptual model*: illustrating the structure and relationships among FHIR profiles.
+  * _Formal Specification_: Information about conformance to the guide including Must Support requirements, document signatures, and document workflow.
+  * *Security considerations*: General security requirements and recommendations for HL7 FHIR® ADI Implementation Guide actors, including authentication, authorization, and logging requirements and guidance.
 * **FHIR Artifacts**: These sections provide detailed descriptions and formal definitions for the relevant FHIR artifacts defined in this guide, including profiles, extensions, terminology, and examples. A capability statement for conformance by implementers is also included.
 * **More**: Sections which include a glossary and links to download the entire IG specification, FHIR structure definitions, and examples.
+
+
 
 ### Dependencies
 <p>This implementation guide relies on the following other specifications:</p>

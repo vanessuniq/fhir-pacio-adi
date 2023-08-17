@@ -47,7 +47,8 @@ menu:
     Conformance: formal_specification.html
     Security, Privacy, and Consent: security_privacy_consent.html
   Person-Authored:
-    Patient Stories and Personas: patient_stories_and_personas.html
+    Introduction: 
+    Patient Stories and Personas: adi_type1.html
     Use Cases: use_cases.html
   Encounter-centric:
     Use Cases: adi_type2.html
@@ -68,7 +69,7 @@ menu:
 pages:
   index.md:
     title: Home
-  patient_stories_and_personas.md:
+  adi_type1.md:
     title: Patient Stories and Personas
   adi_type2.md:
     title: Person-Authored Advance Directive Information

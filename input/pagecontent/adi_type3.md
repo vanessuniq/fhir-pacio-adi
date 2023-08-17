@@ -1,6 +1,11 @@
 ### ADI Content Type III: Portable Medical Orders
 
-**Stub slide for ADI type III content**
+<blockquote class="stu-note">
+    <p>
+    ADI Content Type II is out of scope. It is described here in the context of overall advanced directive interoperability. Reference the <a href="./content_type_overview.html">ADI Content Overview</a> page in this IG for further information about the different ADI content types.
+    </p>
+</blockquote>
+
 Portable medical orders (PMO) are practitioner and person-authored. They document orders for obligations or prohibition of treatment when the patient cannot speak or communicate.
 
 PMOs are informed by a patient or healthcare agent and are intended to follow a patient and be available across the continuum of care. 
