@@ -103,6 +103,21 @@ Angie shares her advance directive information with her medical proxy/healthcare
 <img src="./patient_story_1a.png" alt="Patient Story 1a" style="width: 100%; float: none; align: middle;"/>
 <br clear="all" />
 
+### Document Structure
+
+The patient-authored Advance Directive Interoperability document defines 7 sections:
+1. Healthcare Agent - Healthcare agents, healthcare agent advisors, and consent regarding their roles, powers, and limitations
+2. Goals, Preferences, and Priorities for Certain Healthcare Conditions - Preference CarePlans that contain the person's goals to be considered active under specific situations or conditions
+3. Goals, Preferences, and Priorities Personal Care Experience - Quality of Life related personal care experiences, personal goals, and priorities
+4. Goals, Preferences, and Priorities Upon Death - Goals, preferences, and priorities a person has at the time of or soon after there death
+5. Additional Documentation - Observations regarding the existence of other advance directive related information
+6. Witness & Notary - References and information regarding witnesses and notary
+7. Administrative Information - Administrative information associated with this personal advance care plan
+
+
+<img src="./ADI_DocumentStructure.png" alt="Advance Directive Document Structure"  style="width: 100%; float: none; align: middle;"/>
+
+
 <!-- Future versions
 ### Create in a digital form and make available for sharing and accessing Encounter-Centric Patient Instructions
 <p>
